@@ -25,7 +25,7 @@
 # Editando dados de usuário:
  * Obs: "enviar o body em X-WWW-Form-Urlencoded"
 	- (PUT)http://127.0.0.1:3000/users/8fT3KCsJVighHrFJ
-	{
+	-{
 		name:Maria Joana,
 		email:maria@teste.com,
 		senha:123456789,
