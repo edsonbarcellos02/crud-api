@@ -1,17 +1,17 @@
 # -crud.api
-- Api de Crud em node.js e NeDb
+* Api de Crud em node.js e NeDb
 
-* Execute o comando abaixo dentro da pasta do projeto para instalas todas as dependências:
+* Instalando as dependências do projeto, (Execute o comando abaixo dentro da pasta do projeto):
  - $ npm install
 
-* Executando o projeto, use o comando abaixo ainda dentro da pasta do projeto:
+* Executando o projeto:
  - $ node index || $ nodemon index
 
-# Listar todos os usuários
+# Listar usuários:
  - (GET) http://127.0.0.1:3000/users
 
-# Cadastrar novo usuário
- * Obs: "enviar o bady em X-WWW-Form-Urlencoded"
+# Cadastrar usuário:
+ * Obs: "enviar o body em X-WWW-Form-Urlencoded"
 	- (POST) http://127.0.0.1:3000/users
 		{
 			name: João,
@@ -22,8 +22,8 @@
 # Listando um usuário pelo id:
 - (GET)http://127.0.0.1:3000/users/8fT3KCsJVighHrFJ
 
-# Editando dados de um usuário:
- * Obs: "enviar o bady em X-WWW-Form-Urlencoded"
+# Editando dados de usuário:
+ * Obs: "enviar o body em X-WWW-Form-Urlencoded"
 	- (PUT)http://127.0.0.1:3000/users/8fT3KCsJVighHrFJ
 	{
 		name:Maria Joana,
@@ -32,5 +32,5 @@
 		genero:F,
 	}
 
-# Excluindo um usuário:
+# Excluindo usuário:
 - (DELETE)http://127.0.0.1:3000/users/8fT3KCsJVighHrFJ
