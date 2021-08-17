@@ -13,7 +13,7 @@
 # Cadastrar usuário:
  * Obs: "enviar o body em X-WWW-Form-Urlencoded"
 	- (POST) http://127.0.0.1:3000/users
-		{
+	-	{
 			name: João,
 			email: joao@api.com,
 			senha: 123456
